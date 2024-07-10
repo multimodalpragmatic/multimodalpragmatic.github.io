@@ -1,7 +1,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>multimodalpragmatic</title>
+<title>Multimodal Pragmatic</title>
 <link href="./files/style.css" rel="stylesheet">
 <script type="text/javascript" src="./DreamBooth_files/jquery.mlens-1.0.min.js"></script> 
 <script type="text/javascript" src="./DreamBooth_files/jquery.js"></script>
@@ -12,10 +12,10 @@
   <h1><strong>Multimodal Pragmatic Jailbreak on Text-to-image Models</strong></h1>
   <p id="authors">
     <a style="margin-right: 2px;">Tong Liu</a><sup>12</sup>
-    <a href="https://www.linkedin.com/in/lucas-zhixin-lai/" style="margin-right: 2px;">Zhixin Lai</a><sup>5</sup>
+    <a href="https://scholar.google.com/citations?user=VyNxC-MAAAAJ&hl=zh-CN" style="margin-right: 2px;">Zhixin Lai</a><sup>5</sup>
     <a href="https://gengyuanmax.github.io/" style="margin-right: 2px;">Gengyuan Zhang</a><sup>12</sup>
-    <a href="https://eng.ox.ac.uk/people/philip-torr/" style="margin-right: 2px;">Philip Torr</a><sup>6</sup>
     <br>
+    <a href="https://eng.ox.ac.uk/people/philip-torr/" style="margin-right: 2px;">Philip Torr</a><sup>6</sup>
     <a href="https://www.uni-saarland.de/lehrstuhl/demberg/members/verademberg.html" style="margin-right: 2px;">Vera Demberg</a><sup>34</sup>
     <a href="https://www.dbs.ifi.lmu.de/~tresp/" style="margin-right: 2px;">Volker Tresp</a><sup>12</sup>
     <a href="https://jindonggu.github.io/" style="margin-right: 2px;">Jindong Gu</a><sup>6</sup><br>
@@ -40,9 +40,26 @@
           </p>
     </font>
 </div>
+
 <div class="content">
   <h2 style="text-align:center;">Abstract</h2>
   <p>Diffusion models have recently achieved remarkable advancements in terms of image quality and fidelity to textual prompts. Concurrently, the safety of such generative models has become an area of growing concern. This work introduces a novel type of jailbreak, which triggers T2I models to generate the image with visual text, where the image and the text, although considered to be safe in isolation, combine to form unsafe content. To systematically explore this phenomenon, we propose a dataset to evaluate the current diffusion-based text-to-image (T2I) models under such jailbreak. We benchmark nine representative T2I models, including two closed-sourced commercial models. Experimental results reveal a concerning tendency to produce unsafe content: all tested models suffer from such type of jailbreak, with rates of unsafe generation ranging from 8% to 74%. In real-world scenarios, various filters such as keyword blocklists, customized prompt filters, and NSFW image filters, are commonly employed to mitigate these risks. We evaluate the effectiveness of such filters against our jailbreak and found that, while current classifiers may be effective for single modality detection, they fail to work against our jailbreak. Our work provides a foundation for further development towards more secure and reliable T2I models.</p>
 </div>
+
+<!--<div class="content">-->
+<!--  <h2 style="text-align:center;">Benchmark</h2>-->
+<!--  <p>-->
+<!--  </p>-->
+<!--  <br>-->
+<!--  <img class="summary-img" src="./files/1.png" style="width:35%;">-->
+<!--  <br>-->
+<!--</div>-->
+
+<div class="content">
+  <h2 style="text-align:center;">License</h2>
+  <p> The MPUP dataset is released under the CC BY-4.0 License. </p>
+</div>
+
+
 </body>
 </html>
