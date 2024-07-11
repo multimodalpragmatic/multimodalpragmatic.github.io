@@ -7,13 +7,13 @@ This is the demo code for Multimodal Pragmatic Jailbreak on Text-to-image Models
 For model {model_name} on {dataclass} category of MPUP dataset:   
 
 ```bash
-python sd.py -model_name ${model_name} -prompt_mode "sign" -dataclass ${dataclass}
+python t2i.py -model_name ${model_name} -prompt_mode "sign" -dataclass ${dataclass}
 ```
   
 E.g., running Stable Diffusion model on hatespeech category of MPUP dataset:   
 
 ```bash
-python sd.py -model_name "SD" -prompt_mode "sign" -dataclass "hatespeech"
+python t2i.py -model_name "SD" -prompt_mode "sign" -dataclass "hatespeech"
 ```
 
 <h3> How to evaluate </h3>  
