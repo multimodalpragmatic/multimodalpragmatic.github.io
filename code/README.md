@@ -1,6 +1,8 @@
 # Multimodal Pragmatic Jailbreak on Text-to-image Models
 
-This is the demo code for Multimodal Pragmatic Jailbreak on Text-to-image Models. 
+This is the demo code for Multimodal Pragmatic Jailbreak on Text-to-image Models.   
+
+<a href='https://huggingface.co/datasets/tongliuphysics/multimodalpragmatic'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-MultimodalJailbreak-blue'></a> 
 
 <h3> How to run </h3>  
 
