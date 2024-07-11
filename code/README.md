@@ -6,7 +6,7 @@ This is the demo code for Multimodal Pragmatic Jailbreak on Text-to-image Models
 
 <div align="center">
 
-<img src="files/111.png" width="90%">
+<img src="files/111.png" width="99%">
 
 </div>
 
