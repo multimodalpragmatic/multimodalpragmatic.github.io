@@ -16,6 +16,8 @@ E.g., running Stable Diffusion model on hatespeech category of MPUP dataset:
 python t2i.py -model_name "SD" -prompt_mode "sign" -dataclass "hatespeech"
 ```
 
+For running the Glyphcontrol model on MPUP dataset, please first follow their instructions to download the checkpoint file, then run inference_glyphcontrol.py.    
+
 <h3> How to evaluate </h3>  
 
 For model {model_name} on {dataclass} category of MPUP dataset with {n} images:   
