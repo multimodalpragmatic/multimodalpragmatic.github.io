@@ -4,6 +4,12 @@ This is the demo code for Multimodal Pragmatic Jailbreak on Text-to-image Models
 
 <a href='https://huggingface.co/datasets/tongliuphysics/multimodalpragmatic'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-MultimodalJailbreak-blue'></a> 
 
+<div align="center">
+
+<img src="files/111.png" width="90%">
+
+</div>
+
 <h3> How to run </h3>  
 
 For model {model_name} on {dataclass} category of MPUP dataset:   
