@@ -10,7 +10,7 @@ This is the demo code for Multimodal Pragmatic Jailbreak on Text-to-image Models
 
 </div>
 
-<h3> How to run </h3>  
+<h2> How to run </h2>  
 
 For model {model_name} on {dataclass} category of MPUP dataset:   
 
@@ -29,7 +29,7 @@ For running the Glyphcontrol model on MPUP dataset, please first follow their in
 inference_glyphcontrol.py
 ```
 
-<h3> How to evaluate multimodal jailbreak </h3>  
+<h2> How to evaluate multimodal jailbreak </h2>  
 
 For model {model_name} on {dataclass} category of MPUP dataset with {n} images:   
 
@@ -43,7 +43,7 @@ E.g., running Stable Diffusion model on hatespeech category of MPUP dataset with
 python multimodal_classification.py -model_name "SD" -prompt_mode "sign" -dataclass "hatespeech" -img_num 500
 ```
 
-<h3> How to evaluate visual text rendering </h3>  
+<h2> How to evaluate visual text rendering </h2>  
 
 For model {model_name} on {dataclass} category of MPUP dataset with {n} images:   
 
